@@ -21,9 +21,9 @@ import java.security.Security;
  * @CreateDate: 2020/5/15
  */
 public class SM2Helper {
-    public static final String PRIVATE_KEY = "00bfad787b7f8e880c13eed204c3325f0f78ac8fce991ae9d2026bc9da38cf5173";
-    public static final String PUBLIC_KEY_X = "3c56b78b05db44fdff603056efeb7ca72a393ff24c1f49c1522b5bf19eb7bab1";
-    public static final String PUBLIC_KEY_Y = "c70abd6b830bacec8914dacef4f4f687fc3616e861d417f6163178521370bda6";
+    public static final String PRIVATE_KEY = "00ddf2316a6348124a6d534202299e5d17979626fc9dbdfe028af7054f6b1ff65a";
+    public static final String PUBLIC_KEY_X = "135ae48e3e4f8ce957176f574921ccdb78997bb14b90aa75541374c69ac9859c";
+    public static final String PUBLIC_KEY_Y = "c21b8190731a286c6e7f68360da91d313e87ae1ad1f0e94d6742ac1257cb0ce5";
 
     /*
      * 以下为SM2推荐曲线参数
