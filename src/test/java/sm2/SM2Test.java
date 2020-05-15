@@ -62,6 +62,9 @@ public class SM2Test {
     @Test
     public void testSignAndVerifySign() throws Exception{
         SM2KeyPair sm2KeyPair = SM2KeyHelper.generateKeyPair();
+        String privateKey = Hex.toHexString(sm2KeyPair.getPrivateKey());
+        String publicKeyX = Hex.toHexString(sm2KeyPair.getPublicKeyX());
+        String publicKeyY = Hex.toHexString(sm2KeyPair.getPublicKeyY());
         ECPublicKeyParameters ecPublicKeyParameters = SM2KeyHelper.buildECPublicKeyParameters(sm2KeyPair);
         ECPrivateKeyParameters ecPrivateKeyParameters = SM2KeyHelper.buildECPrivateKeyParameters(sm2KeyPair.getPrivateKey());
 
